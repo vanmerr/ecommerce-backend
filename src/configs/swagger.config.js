@@ -5,13 +5,13 @@ const options = {
   definition: {
     openapi: '3.0.0',
     info: {
-      title: 'Music API',
+      title: 'Ecommerce API',
       version: '1.0.0',
-      description: 'API documentation for the Music application',
+      description: 'API documentation for the Ecommerce application',
     },
     servers: [
       {
-        url: 'http://localhost:3000/api',
+        url: 'https://ecommerce-backend-b54w.onrender.com/api',
         description: 'Development server',
       },
     ],
