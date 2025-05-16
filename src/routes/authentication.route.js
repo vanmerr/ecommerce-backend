@@ -41,7 +41,7 @@ const router = express.Router();
  *         name: avatar
  *         type: file
  *         required: false
- *         description: User's avatar image.
+ *         description: User's avatar image (choose a file).
  *     responses:
  *       201:
  *         description: User registered successfully.
